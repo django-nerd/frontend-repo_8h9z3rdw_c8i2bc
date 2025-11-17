@@ -257,21 +257,6 @@ export default function Ranks() {
             />
           ))}
         </div>
-
-        <div className="mt-10 grid gap-3 sm:grid-cols-3">
-          <div className="rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600">
-            <div className="font-semibold text-slate-900 mb-1">Legenda</div>
-            <p>Tagi dostępu odzwierciedlają wymagany poziom uprawnień (np. Cosmic Top Secret, Top Secret, Confidential, Restricted).</p>
-          </div>
-          <div className="rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600">
-            <div className="font-semibold text-slate-900 mb-1">Nawigacja</div>
-            <p>Każda tabela ma własne tło akcentowe zgodne z identyfikacją wizualną IAA, a wąskie ekrany wspierają przewijanie w poziomie.</p>
-          </div>
-          <div className="rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600">
-            <div className="font-semibold text-slate-900 mb-1">Aktualizacje</div>
-            <p>W razie potrzeby możemy dodać ścieżki awansu, wymagania certyfikacyjne i kryteria oceny dla każdej rangi.</p>
-          </div>
-        </div>
       </div>
     </section>
   )
